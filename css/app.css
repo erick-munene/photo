@@ -1,4 +1,6 @@
-
+body{
+    background-color: red;
+}
 /*================================
            navigation
 ================================*/
@@ -8,7 +10,8 @@ header a{
 header {
     width: 100%;
     min-height: 100px;
-    background-color: yellow;
+    background:url(../img/stripes.png);
+    background-repeat: repeat;
     position: fixed;
     top: 0;
     left: 0;
@@ -48,7 +51,7 @@ nav ul {
 }
 @media (max-width: 1000px) {
     nav ul {
-        background-color: yellow;
+        background:url(../img/stripes.png);
     }
 }
 nav ul li {
@@ -66,7 +69,7 @@ nav ul li {
 nav ul li a {
     text-transform: uppercase;
     font-size: 14px;
-    color: black;
+    color: #FCFCFC;
     letter-spacing: 1px;
     transition: all .3s;
     
@@ -199,3 +202,10 @@ nav ul li:nth-child(3) {
         right: 20px;
     }
 }
+
+
+/*================================
+          landing page
+================================*/
+
+
