@@ -59,6 +59,11 @@
     </div>
 
     <a href="#" class="mobile-sign">Sign In</a>
+
+
+    <a href="#"><i class="fa fa-twitter animated" aria-hidden="true"></i></a>
+
+
 </header>
 
  <div class="row expanded intro">
@@ -66,7 +71,13 @@
 jjjjj<br><br><br><br><br><br>jjjjjjjjjjjjjj<br><br><br><br>hhhhhhhhhhhh
 
 </div>
+<section class="date">
+<h1>THE JESUIT HIGH SCHOOL OF PHILADELPHIA</h1>
+<h2>DEVELOPING MEN FOR AND WITH OTHERS<h2>
 
+<p>Since 1851</p>
+
+</section>
 
 
 
@@ -85,11 +96,11 @@ jjjjj<br><br><br><br><br><br>jjjjjjjjjjjjjj<br><br><br><br>hhhhhhhhhhhh
 $(document).ready(function () {
 
     $(window).scroll(function () { // check if scroll event happened
-        
+
         if ($(document).scrollTop() > 50) { // check if user scrolled more than 50 from top of the browser window
-            $(".nav").css("background-color", "#494B55"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+            $(".container").css("background-color", "#494B55"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
         } else {
-            $(".nav").css("background-color", "transparent"); // if not, change it back to transparent
+            $(".container").css("background-color", "transparent"); // if not, change it back to transparent
         }
     });
 });
