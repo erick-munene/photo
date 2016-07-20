@@ -218,6 +218,21 @@ nav ul li:nth-child(3) {
           intro section
 ================================*/
 
+.first{
+    background:url(../img/stripes.png) repeat 0 0;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 2.07143em 0 3.57143em;
+    font-size: 0.93333em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .intro{
     
     background-size: contain;
@@ -234,5 +249,18 @@ height: 100%;
     
 }*/
 
+.date{
+    color: #FCFCFC;
+    text-align: center;
+    background: #E2E1E3;
+    margin-top: 385px;
+}
 
+.date h1{
+    color: #A1223C;
+    border-bottom: 2px solid #E2E2E1;
+}
 
+.date h2, p{
+    color: #454645;
+}
