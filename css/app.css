@@ -1,0 +1,201 @@
+
+/*================================
+           navigation
+================================*/
+header a{
+    border-radius: 0.3em;
+}
+header {
+    width: 100%;
+    min-height: 100px;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100001;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1000px) {
+    header {
+        position: relative;
+    }
+}
+.container {
+    margin: 0 auto;
+    max-width: 1050px;
+    padding: 0 20px;
+    clear: both;
+    position: relative;
+}
+@media (max-width: 1000px) {
+    .container {
+        padding: 100px 0 0;
+    }
+}
+nav {
+    display: block;
+    position: relative;
+}
+@media (max-width: 1000px) {
+    nav {
+        display: none;
+        left: 0;
+    }
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+@media (max-width: 1000px) {
+    nav ul {
+        background-color: yellow;
+    }
+}
+nav ul li {
+    display: inline-block;
+    margin: 40px 30px;
+}
+@media (max-width: 1000px) {
+    nav ul li {
+        width: 100%;
+        border-top: 1px solid black;
+        margin: 0 !important;
+        /* Sorry */
+    }
+}
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 1px;
+    transition: all .3s;
+    
+}
+@media (max-width: 1000px) {
+    nav ul li a {
+        padding: 1em 0;
+        display: block;
+    }
+    nav ul li a:hover {
+        background-color: yellow;
+    }
+}
+nav ul li a:hover {
+    color: #000;
+    transition: all .3s;
+}
+nav ul li:nth-child(3) {
+    margin-right: 160px;
+}
+@media (max-width: 1000px) {
+    nav ul li:nth-child(3) {
+        margin-right: 180px;
+    }
+}
+.social {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    margin: 40px 0;
+}
+@media (max-width: 1000px) {
+    .social {
+        left: 20px;
+    }
+}
+.social li {
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    margin-left: -35px;
+    background-color: black;
+    color: gold;
+    font-size: 2em;
+}
+.logo:hover {
+    color: yellow;
+}
+.sign {
+    padding: 0.8em 1.2em;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: black;
+    color: gold;
+    box-shadow: inset 0px -3px 0px yellow;
+    transition: all 0.3s;
+}
+@media (max-width: 1000px) {
+    .sign {
+        display: none;
+    }
+}
+.sign:hover {
+    background-color: black;
+    transition: all .3s;
+    color: yellow;
+}
+.mobile {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    width: 40px;
+    margin: 36px 0;
+    cursor: pointer;
+}
+@media (max-width: 1000px) {
+    .mobile {
+        display: block;
+    }
+}
+.mobile span {
+    height: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    margin: 3px 0;
+}
+.mobile-sign {
+    display: none;
+    position: relative;
+    padding: 0.8em 1.2em;
+    background-color: black;
+    color: gold;
+    box-shadow: inset 0px -3px 0px gold;
+    transition: all 0.3s;
+    text-align: center;
+}
+.mobile-sign:hover {
+    background-color: black;
+    color: yellow;
+}
+@media (max-width: 1000px) {
+    .mobile-sign {
+        display: block;
+    }
+}
+@media all and (max-width: 1150px) {
+    nav ul li {
+        margin: 40px 10px;
+    }
+    .social {
+        left: 5%;
+    }
+    .sign {
+        right: 20px;
+    }
+}
