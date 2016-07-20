@@ -1,6 +1,4 @@
-body{
-    background-color: red;
-}
+
 /*================================
            navigation
 ================================*/
@@ -95,6 +93,18 @@ nav ul li:nth-child(3) {
         margin-right: 180px;
     }
 }
+
+
+.social i{
+    font-size: 2rem;
+    color: red;
+    text-outline:12px 12px #FCFCFC ;
+}
+
+.social i:hover{
+    color: #FCFCFC;
+}
+
 .social {
     position: absolute;
     top: 0;
@@ -123,11 +133,11 @@ nav ul li:nth-child(3) {
     text-align: center;
     margin-left: -35px;
     background-color: black;
-    color: gold;
+    color: #FCFCFC;
     font-size: 2em;
 }
 .logo:hover {
-    color: yellow;
+    color: red;
 }
 .sign {
     padding: 0.8em 1.2em;
@@ -205,7 +215,24 @@ nav ul li:nth-child(3) {
 
 
 /*================================
-          landing page
+          intro section
 ================================*/
+
+.intro{
+    
+    background-size: contain;
+    background:url(../img/school.jpg) no-repeat;
+height: 100%;
+
+}
+
+/*@media and screen(max-width: 1000px){
+    .intro{
+        display: none;
+    }
+
+    
+}*/
+
 
 
