@@ -237,23 +237,22 @@ nav ul li:nth-child(3) {
     
     background-size: contain;
     background:url(../img/school.jpg) no-repeat;
-height: 100%;
 
 }
 
-/*@media and screen(max-width: 1000px){
+@media and screen(max-width: 414px){
     .intro{
-        display: none;
+        background: rgba(0,0,0,9);
     }
 
     
-}*/
+}
 
 .date{
     color: #FCFCFC;
     text-align: center;
     background: #E2E1E3;
-    margin-top: 385px;
+    margin-top: 77%;
 }
 
 .date h1{
@@ -263,4 +262,21 @@ height: 100%;
 
 .date h2, p{
     color: #454645;
+}
+
+.down{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    z-index: 100;
+    display: block;
+    z-index: 1000;
+    width: 100%;
+    margin: 0;
+    padding: 2.07143em 0 3.57143em;
+    font-size: 0.93333em;
+    text-align: center;
+    text-transform: uppercase;
+    background:url(../img/stripes.png) repeat 0 0;
+    color: #fff;
 }
