@@ -280,3 +280,13 @@ nav ul li:nth-child(3) {
     background:url(../img/stripes.png) repeat 0 0;
     color: #fff;
 }
+
+
+
+#news{
+    float: left;
+    text-align: center;
+    background: #A1223C;
+    padding:2%;
+    margin: 4px auto;
+}
