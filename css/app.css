@@ -304,41 +304,89 @@ nav ul li:nth-child(3) {
 /*================================
           buttons section
 ================================*/
-.but1{
- background: #E2E1E3;   
-padding: 2%;
-width: 200px;
-color: black;
+.bonyeza{
+    margin-left:30%;
+    margin-right:30%;
+    padding: 20px;
+    
 }
 
-.but2{
 
-background:#E2E1E3;
+.but1{
+ border: 2px solid #454635;
+background:transparent;
 padding: 2%;
-width: 200px;
-color: black;
+width: 150px;
+color: #454645;
+}
+
+.but21{
+border: 2px solid #454635;
+background:transparent;
+padding: 2%;
+width: 150px;
+color: #454645;
 }
 
 .but3{
+   border: 2px solid #454635;
+background:transparent;
 padding: 2%;
-background: #E2E1E3;
-color: black;
-box-shadow: #E2E1E3;
+width: 150px;
+color: #454645;
+}
+
 
 }
-.but2:hover{
-    background: #A1223C;
-    color: white;
-} 
 .but1:hover{
     background: #A1223C;
     color: white;
+    border: 0px;
+} 
+.but21:hover{
+    background: #A1223C;
+    color: white;
+    border: 0px;
 } 
 
 .but3:hover{
     background: #A1223C;
     color: white;
+     border: 0px;
 } 
+
+
+.but4{
+ border: 2px solid #FFF;
+background:transparent;
+padding: 2%;
+
+color: #FFF;
+}
+
+.but4:hover{
+    color:#A1223C;
+   font-weight: 500;
+background:whitesmoke;
+    
+    
+}
+
+.but5{
+    
+    border: 2px solid #FFF;
+background:transparent;
+font-weight: 500;
+
+color: #FFF;
+    margin-right:25%;
+    margin-left: 45%;
+}
+
+.but5:hover{
+    background: #fcfcfc;
+    color: black;
+}
 
 /*================================
           buttons end
