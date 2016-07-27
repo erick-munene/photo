@@ -236,17 +236,18 @@ nav ul li:nth-child(3) {
 .intro{
     
     background-size: contain;
+    background-attachment: fixed;
     background:url(../img/school.jpg) no-repeat;
 
 }
 
-@media and screen(max-width: 414px){
+/*@media and screen(max-width: 414px){
     .intro{
         background: rgba(0,0,0,9);
     }
 
     
-}
+}*/
 
 .date{
     color: #FCFCFC;
@@ -281,12 +282,64 @@ nav ul li:nth-child(3) {
     color: #fff;
 }
 
+#part1{
+    background: #fff;
+}
 
+.news{
+    float: left;
+}
 
 #news{
-    float: left;
+    
+    width: 100%;
     text-align: center;
     background: #A1223C;
-    padding:2%;
-    margin: 4px auto;
+    padding: 2%;
+
+   
 }
+
+
+/*================================
+          buttons section
+================================*/
+.but1{
+ background: #E2E1E3;   
+padding: 2%;
+width: 200px;
+color: black;
+}
+
+.but2{
+
+background:#E2E1E3;
+padding: 2%;
+width: 200px;
+color: black;
+}
+
+.but3{
+padding: 2%;
+background: #E2E1E3;
+color: black;
+box-shadow: #E2E1E3;
+
+}
+.but2:hover{
+    background: #A1223C;
+    color: white;
+} 
+.but1:hover{
+    background: #A1223C;
+    color: white;
+} 
+
+.but3:hover{
+    background: #A1223C;
+    color: white;
+} 
+
+/*================================
+          buttons end
+================================*/
