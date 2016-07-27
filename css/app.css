@@ -391,3 +391,28 @@ color: #FFF;
 /*================================
           buttons end
 ================================*/
+
+
+
+
+/*================================
+         picha section
+================================*/
+
+
+.picha{
+    background: url(../img/school.jpg) fixed no-repeat;
+    
+    
+}
+
+#picha{
+    background: rgba(0,0,0,0.6);
+}
+
+.picha h1, p{
+    padding: 3%;
+    color: ghostwhite;
+    text-align: center;
+}
+
