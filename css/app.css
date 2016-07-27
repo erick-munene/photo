@@ -416,3 +416,65 @@ color: #FFF;
     text-align: center;
 }
 
+
+
+/*================================
+         picha section
+================================*/
+#equal{
+    height: inherit;
+    margin-top: 2%;
+    margin-bottom: 2%;
+ 
+}
+
+.malink{
+    background-color:#E2E1E3;
+}
+
+.kapicha{
+    border-right: 2px solid #A1223C;
+
+    
+}
+
+.kapicha img{
+  
+    
+    border-radius: 5px;
+    
+}
+
+.prep2{
+    height: inherit;
+       border-right: 2px solid #A1223C;
+}
+.prep2 p, h2{
+    color: #A1223C;
+}
+
+
+
+.tulink{
+    color: #A1223C;
+    height: inherit;
+   
+
+}
+.tulink ul{
+    margin-top: 50px;
+}
+.tulink li {
+    list-style-type:circle;
+     margin-top: 2%;
+}
+
+
+/*================================
+         chini section
+================================*/
+
+
+.chini{
+    background:  #454645;
+}
