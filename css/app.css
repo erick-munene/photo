@@ -615,6 +615,143 @@ color: #FFF;
 ================================*/
 
 
-.chini{
-    background:  #454645;
+
+footer {
+    background: #0F1215;
+    padding-top: 60px;
+    padding-bottom: 24px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.15);
+}
+
+footer .content {
+    margin-bottom: 12px;
+}
+
+footer a,
+footer a:visited {
+    color: #a3a4a6;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #fdc501;
+}
+
+footer hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 400px;
+    width: 80%;
+    border-top: 1px solid rgba(150, 150, 150, 0.1);
+}
+
+footer .info {
+    width: 90%;
+    max-width: 600px;
+    margin: 42px auto 36px;
+    text-align: center;
+    clear: both;
+}
+
+footer .footer-logo {
+    width: 100px;
+    height: 23px;
+    background: url("../images/logoW@2x.png") no-repeat center;
+    background-size: 100px 23px;
+    margin: 0 auto 21px;
+    display: block;
+    filter: alpha(opacity=10);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    opacity: 0.1;
+    zoom: 1;
+}
+
+/* copyright */
+footer .copyright {
+    clear: both;
+    margin: 15px 0;
+    padding: 24px 18px 6px 18px;
+    font: 14px/24px "raleway-medium", sans-serif;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+footer .copyright li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+/* social links */
+footer .social-links {
+    margin: 30px auto 42px auto;
+    padding: 0;
+    font-size: 38px;
+    text-align: center;
+}
+
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+}
+
+footer .social-links li a {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+footer .social-links li a:hover {
+    color: white;
+}
+
+footer .social-links li:first-child {
+    margin-left: 0;
+}
+
+/* media queries - .social-links */
+
+@media only screen and (max-width:600px) {
+    footer .social-links {
+        font-size: 32px;
+    }
+
+    footer .social-links li {
+        margin-left: 18px;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    footer .social-links {
+        font-size: 28px;
+    }
+
+    footer .social-links li {
+        margin-left: 14px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    footer .social-links {
+        font-size: 25px;
+    }
+
+    footer .social-links li {
+        margin-left: 12px;
+    }
+
+}
+
+@media only screen and (max-width:350px) {
+    footer .social-links {
+        font-size: 22px;
+    }
+
+    footer .social-links li {
+        margin-left: 10px;
+    }
+
 }
