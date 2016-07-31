@@ -99,7 +99,7 @@
 
 <!-- intro section -->
 
-  <div class="row expanded intro">
+  <div class="row expanded intro" id="intro">
 
 <div class="landi large-centered small-centered columns">
 <!--
@@ -301,7 +301,7 @@ end prep buttons -->
          </ul>
 
          <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
+            <a class="smoothscroll" title="Back to Top" href="#intro">Back to Top<i class="fa fa-angle-up"></i></a>
          </div>
 
       </div> 
@@ -344,6 +344,27 @@ $(document).ready(function () {
 });
 
 </script> -->
+<script>
+    
+    
+$(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(-1) + ']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1500);
+                return false;
+            }
+        }
+    });
+    $('#galleryModal').on('show.bs.modal', function(e) {
+        $('#galleryImage').attr("src", $(e.relatedTarget).data("src"));
+    })
+})(jQuery);
+</script>
 
 
 </body>
