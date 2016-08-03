@@ -620,7 +620,7 @@ color: #FFF;
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background:rgb(30,30,40); }
-form { max-width:420px; margin:50px auto; }
+form { max-width:600px; margin:50px auto; }
 
 .feedback-input {
   color:white;
@@ -649,7 +649,7 @@ textarea {
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
+  width: 50%;
   background:#A1223C;
   border-radius:5px;
   border:0;
@@ -664,15 +664,22 @@ textarea {
 }
 [type="submit"]:hover { background:#CC4949; }
 
+.sub{
+    margin-left:25%;
 
+}
 
 #chini h1{
     text-align: center; 
     margin-top: 20px;
     color: #A1223C;
-    border-bottom: 2px solid #A1223C;
+    border-bottom: 2px solid #A1223C; 
 
 }
+
+.columnz:last-child:not(:first-child) {
+    float: none;
+    }
 
 /*================================
          chini section
