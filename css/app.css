@@ -630,7 +630,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid #A1223C;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -650,7 +650,7 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:#A1223C;
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -666,7 +666,13 @@ textarea {
 
 
 
+#chini h1{
+    text-align: center; 
+    margin-top: 20px;
+    color: #A1223C;
+    border-bottom: 2px solid #A1223C;
 
+}
 
 /*================================
          chini section
@@ -716,7 +722,7 @@ footer .info {
 footer .footer-logo {
     width: 100px;
     height: 23px;
-    background: url("../images/logoW@2x.png") no-repeat center;
+    background: url("../") no-repeat center;
     background-size: 100px 23px;
     margin: 0 auto 21px;
     display: block;
