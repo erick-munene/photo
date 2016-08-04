@@ -681,6 +681,61 @@ textarea {
     float: none;
     }
 
+
+
+
+    #message-warning,
+#message-success {
+    display: none;
+    background: #0F1215;
+    border-radius: 3px;
+    padding: 24px;
+    margin-bottom: 36px;
+    width: 100%;
+}
+
+#message-warning {
+    color: #e64e04;
+}
+
+#message-success {
+    color: #fdc501;
+}
+
+#message-warning i,
+#message-success i {
+    margin-right: 10px;
+}
+
+/* form loader */
+#submit-loader {
+    display: none;
+    position: relative;
+    left: 0;
+    top: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+#submit-loader .text-loader {
+    display: none;
+    font: 14px/30px "raleway-heavy", sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.oldie #submit-loader .s-loader {
+    display: none;
+}
+
+.oldie #submit-loader .text-loader {
+    display: block;
+}
+
+
+
+
 /*================================
          chini section
 ================================*/

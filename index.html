@@ -261,13 +261,36 @@ end prep buttons -->
 
     <h1>CONTACT US</h1>
 <form class=" small-12 large-centered small-centered columnz columns">      
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input name="name" id="contactName" type="text" class="feedback-input" placeholder="Name" />   
+  <input name="email" id="contactEmail" type="text" class="feedback-input" placeholder="Email" />
+  <input name="subject" id="contactSubject"  type="text" class="feedback-input" placeholder="Subject" />
+  <textarea name="tid="contactEmail" ext" id="contactMessage" class="feedback-input" placeholder="Comment"></textarea>
+
+
   <input class="sub" type="submit" value="SUBMIT"/>
-</form>
+
+
+  <div id="submit-loader">
+  <div class="text-loader">Sending...</div>                             
+       <div class="s-loader">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+       </div>
 </div>
 
+
+</form>
+
+
+
+
+ <!-- contact-warning -->
+            <div id="message-warning"></div>
+            <!-- contact-success -->
+            <div id="message-success">
+               <i class="icon-ok"></i>Your message was sent, thank you!<br />
+            </div>
 
 
 <!-- footer section -->
